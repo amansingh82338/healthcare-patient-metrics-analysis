@@ -61,4 +61,4 @@ pip install -r requirements.txt
 - Most prevalent conditions: TBD
 
 ## Author
-*(Add your name / team here)*
+*AMAN SINGH CHAUHAN*
