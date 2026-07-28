@@ -5,18 +5,26 @@ This project analyzes a healthcare dataset to uncover operational, financial, an
 
 ## Project Structure
 ```
-healthcare_analytics_project/
+.
 ├── data/
-│   ├── raw/                       # Original, immutable healthcare_dataset.csv
-│   └── processed/                 # Cleaned data after preprocessing steps
+│   ├── processed/
+│   │   └── cleaned_healthcare_dataset.csv
+│   └── raw/
+│       └── healthcare_dataset.csv
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb     # Data exploration and cleaning
-│   └── 02_exploratory_analysis.ipynb  # Visual EDA
+│   ├── 01_data_cleaning.ipynb
+│   └── 02_exploratory_analysis.ipynb
+├── plots/
+│   ├── Age distribution.png
+│   ├── Average Length of Stay by Admission Type.png
+│   ├── Billing amount distribution by medical condition.png
+│   └── Prevalence of medical conditions.png
 ├── src/
-│   ├── data_processing.py         # Functions to clean names and parse dates
-│   └── visualizations.py          # Functions to generate standard charts
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project description, instructions, and summary of findings
+│   ├── data_processing.py
+│   └── visualizations.py
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ## Data
@@ -54,11 +62,6 @@ pip install -r requirements.txt
 2. Run `notebooks/01_data_cleaning.ipynb` to clean the data and generate the processed dataset
 3. Run `notebooks/02_exploratory_analysis.ipynb` to generate visualizations and explore key metrics
 
-## Key Findings
-*(To be filled in after EDA is complete)*
-- Average length of stay: TBD
-- Billing distribution insights: TBD
-- Most prevalent conditions: TBD
 
 ## Author
 *AMAN SINGH CHAUHAN*
